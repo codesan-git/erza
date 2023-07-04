@@ -18,10 +18,27 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.btn-brutal {
+  padding: 0.5rem 1.25rem;
+  margin: 30px 0px;
+  font-size: 15px;
+  color: #000;
+  background: #fff;
+  font-weight: 500;
+  border: #000;
+  border-width: 1px;
+  border-color: #000;
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+  /* box-shadow: 4px 4px 1px 1px #000; */
+}
+
+.btn-brutal:hover{
+  transform: translateY(3px);
+  box-shadow: 1px 1px 0px 0px #000;
 }
